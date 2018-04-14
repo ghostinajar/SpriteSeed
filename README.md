@@ -1,7 +1,5 @@
 # spriteSeed
 A Fantasy Farming Adventure
-# spriteSeed
-A Fantasy Farming Adventure
 
 I am Mark Wells, and spriteSeed is my first effort in game design and development. As of March 2018 I am working in Unity. I wanted to see a hybrid of farming and fantasy-adventure styles, inspired by the aesthetics and mechanics of Harvest Moon and the Legend of Zelda series. 
 
