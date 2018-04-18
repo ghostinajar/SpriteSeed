@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 95171180886469396}
   - component: {fileID: 50029105404694720}
   - component: {fileID: 114727745800980412}
+  - component: {fileID: 114737878816748688}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -96,6 +97,23 @@ MonoBehaviour:
   spellEquipped: 0
   moverType: 0
   changeDirectionRate: 0
+--- !u!114 &114737878816748688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1492695555170634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69427877bc948447c804c602ac7650dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mousePos: {x: 0, y: 0, z: 0}
+  mousePosWorld: {x: 0, y: 0, z: 0}
+  clickedCell: {x: 0, y: 0, z: 0}
+  tileMap: {fileID: 0}
+  tileBase: {fileID: 11400000, guid: 8188fa0bc319f404b8f26e1198886f5e, type: 2}
+  testObj: {fileID: 1492695555170634}
 --- !u!212 &212859508005248220
 SpriteRenderer:
   m_ObjectHideFlags: 1
